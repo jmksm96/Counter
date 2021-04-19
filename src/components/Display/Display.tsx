@@ -1,5 +1,5 @@
 import React from 'react'
-
+import display from './Display.module.css'
 
 type CountType = {
     count: number
@@ -7,7 +7,7 @@ type CountType = {
 
 const Display = (props: CountType) => {
     return (
-        <div className='display' style = {{ background: "aqua", border: "1px solid red", color:"red"}}>
+        <div className={display.display}>
             <h3>{props.count}</h3>
         </div>
     )

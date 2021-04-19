@@ -1,6 +1,6 @@
 import React from 'react';
-import Buttons from './buttons';
-import Display from './display';
+import Buttons from '../Buttons/Buttons';
+import Display from '../Display/Display';
 
 type PropsType = {
     count: number
